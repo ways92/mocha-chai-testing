@@ -1,2 +1,1 @@
-# mocha-chai-testing
-used to testing API
+# API testing with mocha chai
