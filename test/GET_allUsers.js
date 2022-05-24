@@ -1,8 +1,10 @@
-const { expect } = require( "chai" );
-const supertest = require( 'supertest' )
+// const { expect } = require( "chai" );
+// const supertest = require( 'supertest' )
+// let baseURL = "https://reqres.in";
+// const request =  supertest(baseURL)
 
-let baseURL = "https://reqres.in";
-const request =  supertest(baseURL)
+const { expect } = require( "chai" )
+const request = require( "../src/baseTest.js" )
 
 describe("GET", async () => {
   

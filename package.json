@@ -1,14 +1,13 @@
 {
   "name": "mocha-chai-testing",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
- 
+  
   "scripts": {
     "test": "mocha 'test/*.js'"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ways Alqorni",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.0",
@@ -23,5 +22,17 @@
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.0",
     "@babel/preset-env": "^7.18.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ways92/mocha-chai-testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ways92/mocha-chai-testing/issues"
+  },
+  "homepage": "https://github.com/ways92/mocha-chai-testing#readme",
+  "description": ""
 }
