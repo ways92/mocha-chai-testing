@@ -1,7 +1,7 @@
 const { expect } = require( "chai" )
 const request = require( "../../src/baseTest.js" )
 
-describe.only("GET - List delayed response", async () => {
+describe("GET - List delayed response", async () => {
   
   it( "Success", async () => {
     
