@@ -4,7 +4,7 @@
   "main": "index.js",
   
   "scripts": {
-    "test": "mocha 'test/*.js'"
+    "test": "mocha test/login/*.js test/login/*.js test/users/*.js test/register/*.js test/unknown/*.js --timeout 5000"
   },
   "keywords": [],
   "author": "Ways Alqorni",
