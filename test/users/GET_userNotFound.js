@@ -1,7 +1,7 @@
 const { expect } = require( 'chai' )
 const request = require('../../src/baseTest')
 
-describe.only("GET - Single user not found", async () => {
+describe("GET - Single user not found", async () => {
 
     it( "Unsuccess", async () => {
       try {
