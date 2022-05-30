@@ -13,8 +13,8 @@ describe("GET - Single unknown not found", async () => {
       } catch (error) {
         expect.fail(error);
       }
-    }
-    )
+
+    })
 
     
-} ); 
+}); 

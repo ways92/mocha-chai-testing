@@ -13,8 +13,9 @@ describe("GET - List delayed response", async () => {
       } catch (error) {
         expect.fail(error);
       }
-    }
-  );
+
+    
+    });
   
     
 }); 

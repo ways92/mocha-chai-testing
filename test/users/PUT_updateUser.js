@@ -16,10 +16,9 @@ describe( 'PUT - Update User', async () => {
         expect( response.status ).to.be.equal( 200 )
         expect( response.body.name ).to.be.equal( "PUT" )
 
-    }
-    )
+    })
 
      
 
 
-} )
+})

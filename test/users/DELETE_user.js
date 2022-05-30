@@ -10,10 +10,9 @@ describe( 'DELETE - User', async () => {
 
         expect( response.status ).to.be.equal( 204 )
 
-    }
-    )
+    })
 
      
 
 
-} )
+})

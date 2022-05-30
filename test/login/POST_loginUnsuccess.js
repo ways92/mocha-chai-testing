@@ -16,8 +16,7 @@ describe( 'POST - Login', async () => {
         expect( response.body ).have.property("error")
         
 
-    }
-    )
+    })
 
      it( "Unsuccess", async () => {
         const dataUser = {
@@ -31,11 +30,10 @@ describe( 'POST - Login', async () => {
         expect( response.body ).have.property("error")
         
 
-    }
-    )
+    })
 
 
      
 
 
-} )
+})

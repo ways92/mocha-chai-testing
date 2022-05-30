@@ -17,10 +17,9 @@ describe( 'POST - Create User', async () => {
         expect( response.status ).to.be.equal( 201 )
         expect( response.body.name ).to.be.equal( "Boaz" )
 
-    }
-    )
+    })
 
      
 
 
-} )
+})

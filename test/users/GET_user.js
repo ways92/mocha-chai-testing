@@ -14,8 +14,9 @@ describe("GET - Single user", async () => {
       } catch (error) {
         expect.fail(error);
       }
-    }
-    )
+    
+
+    })
     
     
-} ); 
+}); 

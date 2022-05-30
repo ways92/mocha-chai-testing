@@ -13,9 +13,9 @@ describe("GET - List unknown", async () => {
       } catch (error) {
         expect.fail(error);
       }
-    }
-    )
+    
+    })
 
        
     
-} ); 
+}); 

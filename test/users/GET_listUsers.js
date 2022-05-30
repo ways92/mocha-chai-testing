@@ -13,8 +13,9 @@ describe("GET - List Users", async () => {
       } catch (error) {
         expect.fail(error);
       }
-    }
-  );
+    
+
+    });
 
   
   // it("Test-02 - Create User API", async () => {

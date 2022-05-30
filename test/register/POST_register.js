@@ -17,10 +17,9 @@ describe( 'POST - Register', async () => {
         expect( response.body ).have.property("token")
         
 
-    }
-    )
+    })
 
      
 
 
-} )
+})

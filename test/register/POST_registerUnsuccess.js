@@ -16,8 +16,7 @@ describe( 'POST - Register', async () => {
         expect( response.status ).to.be.equal( 400 )
         expect( response.body.error ).to.be.contain("Missing")
 
-    }
-    )
+    })
 
      it( "Unsuccess", async () => {
         const dataUser = {
@@ -33,9 +32,8 @@ describe( 'POST - Register', async () => {
         expect( response.status ).to.be.equal( 400 )
         expect( response.body.error ).to.be.contain("Missing")
 
-    }
-    )
+    })
      
 
 
-} )
+})

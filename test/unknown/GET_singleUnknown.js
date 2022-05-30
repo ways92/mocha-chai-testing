@@ -13,9 +13,9 @@ describe("GET - Single unknown", async () => {
       } catch (error) {
         expect.fail(error);
       }
-    }
-    )
+
+    })
 
        
     
-} ); 
+}); 

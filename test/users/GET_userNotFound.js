@@ -14,8 +14,9 @@ describe("GET - Single user not found", async () => {
       } catch (error) {
         expect.fail(error);
       }
-    }
-    )
+
+
+    })
     
     
-} ); 
+}); 
