@@ -2,26 +2,23 @@
   "name": "mocha-chai-testing",
   "version": "1.0.0",
   "main": "index.js",
-  
   "scripts": {
-    "test": "mocha test/login/*.js test/login/*.js test/users/*.js test/register/*.js test/unknown/*.js --timeout 5000"
+    "test": "mocha test/login/*.js test/login/*.js test/users/*.js test/register/*.js test/unknown/*.js --timeout 10000 --reporter mochawesome"
   },
   "keywords": [],
   "author": "Ways Alqorni",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.0",
     "chai": "^4.3.6",
     "faker": "^6.6.6",
     "mocha": "^10.0.0",
-    "mochawesome": "^3.0.2",
-    "supertest": "^3.4.2",
-    "tv4": "^1.3.0"
+    "supertest": "^3.4.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.0",
-    "@babel/preset-env": "^7.18.0"
+    "@babel/preset-env": "^7.18.0",
+    "mochawesome": "^3.1.2"
   },
   "directories": {
     "test": "test"
