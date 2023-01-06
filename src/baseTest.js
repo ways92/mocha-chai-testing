@@ -1,5 +1,6 @@
+require('dotenv').config()
 const supertest = require( 'supertest' )
-let baseURL = "https://reqres.in"
+let baseURL = process.env.BASE_URL
 const request = supertest( baseURL );
 
 module.exports = request

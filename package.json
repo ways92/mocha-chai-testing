@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/login/*.js test/login/*.js test/users/*.js test/register/*.js test/unknown/*.js --timeout 10000 --reporter mochawesome"
+    "test": "mocha --timeout 10000 --reporter mochawesome --reporter-options reportDir=mochawesome_report",
+    "all-case":"mocha test/login/*.js test/login/*.js test/users/*.js test/register/*.js test/unknown/*.js --timeout 10000 --reporter mochawesome --reporter-options reportDir=mochawesome_report"
   },
   "keywords": [],
   "author": "Ways Alqorni",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.3.6",
+    "dotenv": "^16.0.3",
     "faker": "^6.6.6",
     "mocha": "^10.0.0",
     "supertest": "^3.4.2"
