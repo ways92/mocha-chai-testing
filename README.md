@@ -1,6 +1,6 @@
 # mocha chai - API testing
 
-> technologies / tools
+> Technologies / tools
 - mocha
 - chai
 - supertest
