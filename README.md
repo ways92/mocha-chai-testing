@@ -4,5 +4,5 @@
 - Mocha
 - Chai
 - Supertest
-- Mochawesome Repert
+- Mochawesome Report
 - dotenv
