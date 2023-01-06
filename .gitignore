@@ -108,4 +108,4 @@ dist
 mochawesome_report/
 
 # ide
-.idea
+.idea/
