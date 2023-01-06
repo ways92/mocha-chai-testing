@@ -1,8 +1,8 @@
 # Mocha Chai  Supertest- API testing
 
 > Technologies / tools
-- mocha
-- chai
-- supertest
-- mochawesome repert
+- Mocha
+- Chai
+- Supertest
+- Mochawesome Repert
 - dotenv
